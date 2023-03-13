@@ -4,6 +4,7 @@ var eth = document.getElementById("ethereum");
 var doge = document.getElementById("dogecoin");
 
 
+
 var liveprice = {
     "async": true,
     "scroosDomain": true,
@@ -18,3 +19,4 @@ $.ajax(liveprice).done(function(response){
     eth.innerHTML = response.ethereum.usd;
     doge.innerHTML = response.dogecoin.usd;
 });
+
