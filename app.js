@@ -2,6 +2,7 @@ var btc = document.getElementById("bitcoin");
 var ltc = document.getElementById("litecoin");
 var eth = document.getElementById("ethereum");
 var doge = document.getElementById("dogecoin");
+var tether = document.getElementById("tether");
 
 
 
@@ -18,5 +19,6 @@ $.ajax(liveprice).done(function(response){
     ltc.innerHTML = response.litecoin.usd;
     eth.innerHTML = response.ethereum.usd;
     doge.innerHTML = response.dogecoin.usd;
+    tether.innerHTML = response.tether.usd;
 });
 

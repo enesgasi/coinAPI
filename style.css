@@ -5,16 +5,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.headline {
-    align-items: center;
-}
-
-
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    margin-top: 100;
 }
 .container .coin-price{
     display: flex;
